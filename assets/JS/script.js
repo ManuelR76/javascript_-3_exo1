@@ -1,5 +1,7 @@
-var image1 = document.getElementById('image1');//récupération de la variable
-
-image1.addEventListener ("mouseover", function() {//création de la fonction
-    this.src = "images/image1_2.jpg"//récupération de la deuxième image
+var image1 = document.getElementById("image1");
+image1.addEventListener("mouseover",function(){
+  image1.style.border = "3px solid red"
+}) ;
+image1.addEventListener("mouseout",function(){
+  image1.style.border = ""
 })
